@@ -117,6 +117,7 @@ h3.subtitle.is-5 {
     }
     h3.subtitle.is-5 {
         margin-right: 38px;
+        padding: 0;
     }
     .download_btn {
         margin-top: 1rem;
