@@ -1,0 +1,137 @@
+* {
+    font-family: Helvetica,Microsoft JhengHei,Roboto,sans-serif!important;
+}
+
+.vertical_centering:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.lang_logo {
+    width: 60px;
+    height: 60px;
+}
+.title.is-1 {
+    margin-top: 1rem;
+    font-size: 28px;
+}
+.subtitle.is-5 {
+    font-size: 16px;
+}
+.subtitle:not(:last-child) {
+    margin-bottom: 1rem;
+}
+h3.subtitle.is-5 {
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+h3.subtitle.is-5 {
+    line-height: 1.4;
+}
+.hero-body .subtitle.is-muted {
+    color: #000;
+}
+
+.hide {
+    display: none;
+}
+
+.download_btn {
+    margin-top: 2rem;
+    display: inline-block;
+    width: 180px;
+}
+
+.banner {
+    position: relative;
+    background-image: url('/images/bg_home_gridplus.jpg');
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 1.5rem;
+    width: calc(100% - 1.5rem*2);
+    height: calc(100% - 80px*2);
+    background: rgba(255, 255, 255, .8);
+}
+
+.hero .navbar {
+    background: #fff;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    height: 60px;
+    color: #717171;
+}
+.footer a {
+    color: #717171;
+}
+
+.footer * {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media screen and (min-width: 375px) {}
+
+@media screen and (min-width: 560px) {}
+
+@media screen and (min-width: 770px) {
+    .banner::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        background: #eec7b2;
+    }
+    .lang_logo {
+        width: 80px;
+        height: 80px;
+    }
+    .title.is-1 {
+        margin-top: 1rem;
+        font-size: 35px;
+    }
+    .subtitle.is-5 {
+        font-size: 18px;
+    }
+    h3.subtitle.is-5 {
+        margin-right: 38px;
+    }
+    .download_btn {
+        margin-top: 1rem;
+        display: inline-block;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 1087px) {
+    .navbar-menu.is-active {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {}
+
+@media screen and (min-width: 1920px) {}

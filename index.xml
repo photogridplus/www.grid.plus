@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHOTOGRID &#43; - photo &amp; video collage editor</title>
+    <link>https://www.grid.plus/</link>
+    <description>Recent content on PHOTOGRID &#43; - photo &amp; video collage editor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.grid.plus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
